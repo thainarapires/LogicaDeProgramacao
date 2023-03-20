@@ -1,0 +1,47 @@
+NO VSCODE:
+package Aula01;
+public class Primeiro{
+
+    public static void main(String[] args){
+        System.out.println("Olá mundoo");
+    }
+
+
+}
+
+NO ECLIPSE:
+
+package br.com.logica.introducao;
+
+public class Primeiro {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println("Olá mundo");
+	}
+
+}
+
+////////////////////////////////////
+
+package br.com.logica.introducao;
+
+import java.util.Scanner;
+
+public class EntradaTexto {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String nome;
+		
+		Scanner texto = new Scanner(System.in);
+		System.out.println("Digite o seu nome:");
+		nome = texto.next(); 
+		System.out.println("Olá " + nome);
+	}
+
+}
+
+
